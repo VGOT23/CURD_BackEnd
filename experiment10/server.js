@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // Paste your MongoDB Atlas/local connection string here
-const MONGO_URI = "PASTE_YOUR_MONGODB_CONNECTION_STRING_HERE";
+const MONGO_URI = "mongodb://localhost:27017";
 
 mongoose
   .connect(MONGO_URI)
